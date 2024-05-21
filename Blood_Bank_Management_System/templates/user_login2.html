@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - codingnepalweb.com -->
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'log.css' %}">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>User Login</title>
+  <!---Custom CSS File--->
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body{
+      background-color: lightskyblue;
+    }
+  </style>
+</head>
+<body>
+  <div class="container" style="background-color: red;">
+    <input type="checkbox" id="check">
+    <div class="login form">
+      <header><b>User Login</b></header>
+      <form action="log10">
+        <input type="text" placeholder="Enter your Name" name="a1">
+        <input type="password" placeholder="Enter your password" name="a2">
+        <input type="submit" class="button" value="Login" style="background-color: black;color: white;">
+      </form>
+    </div>
+  </div>
+</body>
+</html>
