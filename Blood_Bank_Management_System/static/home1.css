@@ -378,13 +378,13 @@ Description: This Template is created for Youtubers
       .about-us {
         padding: 30px 10px; } }
     .about-us .text p {
-      font-weight: 300;
-      font-size: .85rem;
-      color: #000;
+      color: #9b030c;
+      font-size: 40px;
+      font-weight: 600;
       margin-bottom: 10px;
       text-align: justify; }
-    .about-us .image img {
-      margin-top: 30px; }
+      .about-us .image img {
+        margin-top: 30px; }
   
   /* ===================================== About US CSS ================================== */
   footer {
